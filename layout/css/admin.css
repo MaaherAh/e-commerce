@@ -1,0 +1,110 @@
+
+/*-- Global Styling --*/
+.pull-right{float: right;}
+
+/*=================== Strat login styling ===================*/
+.login {width: 300px;margin: 100px auto}
+.login input {margin-bottom: 10px}
+/*=================== End login styling ===================*/
+
+/*=================== Strat Edit page styling ===================*/
+div.form-gorup{margin-bottom: 20px;}
+.form-control{position: relative;}
+
+.asterisk{
+	font-size: 30px;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    color: #caa4a4
+}
+/*=================== End Edit page styling ===================*/
+
+/*=================== Start Dashboard ===================*/
+.home-stat .stat{
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.home-stat .st-members{background-color: #27ae60;}
+.home-stat .st-pending{background-color: #c0392b;}
+.home-stat .st-items{background-color: #2980b9;}
+.home-stat .st-comments{background-color: #007bff80;}
+.home-stat .stat a{color: #FFF;}
+.home-stat .stat span{display: block; font-size: 35px;}
+.latest{margin-top: 30px;}
+.latest .panel{width: 80%;padding: 5px 10px;background-color: #dcdde1;border-radius: 10px;font-size: 20px;}
+.latest .panel .panel-heading{background-color: #e9ecef;}
+.latest .panel .panel-body{}
+.latest .panel .panel-body ul{margin: 10px 0 0;}
+.latest i{margin-right: 5px;}
+.latest .latest_members li{
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.latest .latest_members li:nth-child(odd){background-color: #007bff40;}
+.latest .latest_members li:nth-child(even){background-color: #85a392;}
+.latest .latest_members li .btn-success,
+.latest .latest_members li .activate{padding: 0px 5px;opacity: 0.8;font-size: 15px;position: relative;top: 7px;}
+.latest .latest_members li .activate{margin-right: 5px;}
+/*=================== End Dashboard ===================*/
+
+/*=================== Strat Members: Main page styling ===================*/
+.show-pass {
+    position: absolute;
+    top: 11px;
+    right: 22px
+}
+
+.main-table tr:first-child td{
+    font-size: x-large;
+}
+
+.activate{margin-left: 5px;}
+/*=================== End Members page styling ===================*/
+
+/*=================== Strat Categories styling ===================*/
+/*-- Categories: main page --*/
+.categories .panel{border-radius: 10px;border: 2px solid #646881;}
+.categories .panel-heading{background-color: #e9ecef;padding: 10px;font-size: 20px;}
+.categories .panel-heading .ordering a{color: #000;}
+.categories .panel-heading .ordering a.active{color: #d35400;}
+.categories .panel-body{background-color: #404E4D;padding: 0;}
+.categories hr{
+    border-top: 2px solid rgba(100, 104, 129, 1);
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.categories .category{padding: 15px;background-color: #ced4da;}
+.categories .category:hover{background-color: #697FA7;}
+.categories .category:last-of-type ~ hr{display: none;}
+.categories .category span{
+    background-color: #17a2b8;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.categories .category .edit-buttons a{margin-left: 10px;padding: 2px 5px;}
+.categories a.add-category {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*-- Categories: add page --*/
+.form-group .vis-labels{margin-right: 10px;}
+.form-group input[type='submit']{padding: 5px 20px;}
+/*=================== End Categories styling ===================*/
+
+/*=================== Start Items styling ===================*/
+
+/*-- Items: add page --*/
+.form-horizontal .form-group select{font-size: 20px;padding: 5px 5px 10px;width: 40%;}
+
+/*=================== End Items styling ===================*/
